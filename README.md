@@ -22,7 +22,7 @@ Extensive experiments show that our system improves object appearance preservati
 </div>
 
 ## News
-[2025.06.17] We have open-sourced the training and inference code, along with the test dataset. The training code is available upon request.  
+[2025.06.17] We have open-sourced the training and inference code, along with the test dataset. The training dataset is available upon request.  
 [2025.04.17] We have released gradio demo.
 
 ## Getting Started
