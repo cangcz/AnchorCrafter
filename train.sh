@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=1,2,3,4,5 accelerate launch --main_process_port 29505 \
  --config_file ./default_config.yaml --num_processes 5 train.py \
- --base_folder=./dataset/HOI/ \
+ --base_folder=./dataset/ \
  --noobj_folder="" \
  --pretrained_model_name_or_path=./models/stable-video-diffusion-img2vid-xt-1-1/ \
  --dino_path=./models/dinov2_large/ \

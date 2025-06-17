@@ -2,12 +2,10 @@
 
 #### AnchorCrafter: Animate Cyber-Anchors Selling Your Products via Human-Object Interacting Video Generation
 
-Ziyi Xu*, [Ziyao Huang](https://scholar.google.com/citations?user=nijlf5YAAAAJ)*, Juan Cao, [Yong Zhang](https://yzhang2016.github.io/), Xiaodong Cun, Qing Shuai, Yuchen Wang, Linchao Bao, Jintao Li, [Fan Tang](https://scholar.google.com/citations?user=PdKElfwAAAAJ) 
-
 [![](https://img.shields.io/badge/Project-Page-green.svg)](https://cangcz.github.io/Anchor-Crafter/) [![](https://img.shields.io/badge/Paper-Arxiv-orange.svg)](https://arxiv.org/abs/2411.17383) [![](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=6SZYTJXGTm8) 
 
 
-<img src="src/result.png" width="600">
+<img src="src/result.png" width="650">
 
 ## Abstract
 The generation of anchor-style product promotion videos presents promising opportunities in e-commerce, advertising, and consumer engagement. 
@@ -45,7 +43,7 @@ wget https://huggingface.co/yzd-v/DWPose/resolve/main/dw-ll_ucoco_384.onnx?downl
 ```
 in_channels: 8 => in_channels: 12
 ```
-4. You can download the [checkpoints](https://huggingface.co/cangcz/AnchorCrafter_1/tree/main) and place them at ./models/. This model has been fine-tuned on finutune dataset (five test objects).
+4. You can download the [AnchorCrafter_1.pth](https://huggingface.co/cangcz/AnchorCrafter_1/tree/main) and place them at ./models/. This model has been fine-tuned on finutune dataset (five test objects).
 
 
 Finally, all the weights should be organized in models as follows
@@ -69,10 +67,10 @@ sh inference.sh
 ```
 
 ### Fine-tuning
-We provide training scripts. Please download the finutune dataset [AnchorCrafter-finutune](https://huggingface.co/datasets/cangcz/AnchorCrafter-finutune) and place them at ./dataset/HOI/tune/. 
+We provide training scripts. Please download the finutune dataset [AnchorCrafter-finutune](https://huggingface.co/datasets/cangcz/AnchorCrafter-finutune) and place them at ./dataset/tune/. 
 
 ```
-dataset/HOI/tune/
+dataset/tune/
 ├── depth_cut
 ├── hand_cut
 ├── masked_object_cut

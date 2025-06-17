@@ -326,7 +326,7 @@ if __name__ == "__main__":
                         action="store_true",
                         help="Whether use float16 to speed up inference",
                         )
-    parser.add_argument('--num_frames', type=int, default=-1)
+    parser.add_argument('--num_frames', type=int, default=-1)  # -1 means all frames
 
     args = parser.parse_args()
 

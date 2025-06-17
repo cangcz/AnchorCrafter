@@ -62,6 +62,6 @@ class DWposeDetector:
             return pose
 
 dwpose_detector = DWposeDetector(
-    model_det="/data3/xuziyi/g数字人生成/MimicMotion/models/DWPose/yolox_l.onnx",
-    model_pose="/data3/xuziyi/g数字人生成/MimicMotion/models/DWPose/dw-ll_ucoco_384.onnx",
+    model_det="./models/DWPose/yolox_l.onnx",
+    model_pose="./models/DWPose/dw-ll_ucoco_384.onnx",
     device=device)
