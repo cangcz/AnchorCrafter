@@ -1,0 +1,1 @@
+ CUDA_VISIBLE_DEVICES=0 python inference.py --inference_config config/test.yaml --num_frames 64

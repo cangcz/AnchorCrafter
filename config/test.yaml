@@ -1,0 +1,124 @@
+# base svd model path
+base_model_path: ./models/stable-video-diffusion-img2vid-xt-1-1/
+dino_path: ./models/dinov2_large/
+new_path: ./models/AnchorCrafter_1.pth
+test_case:
+  - ref_image_path: ./src/inference/people_cut/woman1.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg  # Automatically read hmbb_1.jpg and hmbb_2.jpg.
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 3.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+    
+  - ref_image_path: ./src/inference/people_cut/7.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+  - ref_image_path: ./src/inference/people_cut/ai.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+  - ref_image_path: ./src/inference/people_cut/cha.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+  - ref_image_path: ./src/inference/people_cut/john.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+  - ref_image_path: ./src/inference/people_cut/man4.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+  - ref_image_path: ./src/inference/people_cut/wj.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42
+
+  - ref_image_path: ./src/inference/people_cut/zhubo_cut.jpg
+    ref_video_path: ./src/inference/video_cut/hmbb_2.mp4
+    obj_path: ./src/inference/masked_object_cut/hmbb_0.jpg
+    obj_track_path: ./src/inference/depth_cut/hmbb_2.mp4
+    hand_path: ./src/inference/hand_cut/hmbb_2.mp4
+    num_frames: 11
+    resolution: 576
+    frames_overlap: 5
+    num_inference_steps: 30
+    noise_aug_strength: 0
+    guidance_scale: 4.0
+    sample_stride: 2
+    fps: 15
+    seed: 42

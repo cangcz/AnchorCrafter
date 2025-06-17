@@ -1,0 +1,25 @@
+CUDA_VISIBLE_DEVICES=1,2,3,4,5 accelerate launch --main_process_port 29505 \
+ --config_file ./default_config.yaml --num_processes 5 train.py \
+ --base_folder=./dataset/HOI/ \
+ --noobj_folder="" \
+ --pretrained_model_name_or_path=./models/stable-video-diffusion-img2vid-xt-1-1/ \
+ --dino_path=./models/dinov2_large/ \
+ --ckpt_path=./models/AnchorCrafter_1.pth \
+ --per_gpu_batch_size=1 \
+ --gradient_accumulation_steps=1 \
+ --max_train_steps=5000 \
+ --resolution=576 \
+ --checkpointing_steps=1000 \
+ --checkpoints_total_limit=2 \
+ --learning_rate=1e-5 \
+ --lr_warmup_steps=100 \
+ --seed=42 \
+ --num_workers=1 \
+ --num_frames 6 \
+ --enable_xformers_memory_efficient_attention \
+ --mixed_precision=fp16 \
+ --gradient_checkpointing \
+ --output_dir=./ckpt \
+ --loss_rate_hoi 1 \
+ --finetune \
+ --resume_from_checkpoint latest
