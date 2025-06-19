@@ -89,7 +89,7 @@ We use DeepSeed to enable multi-GPU training, requiring at least 5 GPUs with 40G
 ### AnchorCrafter-test
 We have released the test dataset [AnchorCrafter-test](https://huggingface.co/datasets/cangcz/AnchorCrafter-test), which includes five objects and eight human images, with each object featuring two different poses.
 ### AnchorCrafter-400
-We have collected and made available for application a fundamental HOI training dataset, AnchorCrafter-400, which comprises 400 videos. It is designed for academic research. If you wish to apply for its usage, please email us: zyxu.ccz@foxmail.com.
+We have collected and made available for application a fundamental HOI training dataset, AnchorCrafter-400, which comprises 400 videos. It is designed for academic research. If you wish to apply for its usage, please fill out the [questionnaire](https://forms.office.com/r/9dNTnK4Mi2).
 
 
 ## Citation
