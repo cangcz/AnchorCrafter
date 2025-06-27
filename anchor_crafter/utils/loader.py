@@ -107,7 +107,9 @@ def create_pipeline(infer_config, device):
                                                 strict=False)
     print("missing_keys", len(missing_keys))
     print("unexpected_keys", len(unexpected_keys))
-
+    print(f"Notice: {1333} missing keys were detected during model loading. "
+        "This occurs because the CLIP and VAE modules are pre-loaded, while only the backbone network weights are initialized at this stage. "
+        "Inference will proceed as normal.")
     pipeline = AnchorCrafterPipeline(
         vae=anchorcrafter_models.vae,
         image_encoder=anchorcrafter_models.image_encoder,
