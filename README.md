@@ -2,7 +2,7 @@
 
 #### AnchorCrafter: Animate Cyber-Anchors Selling Your Products via Human-Object Interacting Video Generation
 
-[![](https://img.shields.io/badge/Project-Page-green.svg)](https://cangcz.github.io/Anchor-Crafter/) [![](https://img.shields.io/badge/Paper-Arxiv-orange.svg)](https://arxiv.org/abs/2411.17383) [![](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=6SZYTJXGTm8) 
+[![](https://img.shields.io/badge/Project-Page-green.svg)](https://cangcz.github.io/Anchor-Crafter/) [![](https://img.shields.io/badge/Paper-Arxiv-orange.svg)](https://arxiv.org/abs/2411.17383) [![](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=6SZYTJXGTm8)  [![](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces)](https://huggingface.co/spaces/cangcz/AnchorCrafter)
 
 
 <img src="src/result.png" width="650">
