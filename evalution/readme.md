@@ -1,7 +1,4 @@
 #  Evaluation
-## Directory Structure
-
-
 ## Processing Pipeline
 Place the generated videos and real videos under `example/gt` and `example/results`, respectively, then use [SAM2](https://sam2.metademolab.com/) to extract the object masks and save them in the corresponding `mask` folders. Place the Reference human images in `example/human`.
 ```plaintext
