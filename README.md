@@ -95,11 +95,12 @@ We have collected and made available for application a fundamental HOI training 
 ## Citation
 
 ```
-@article{xu2024anchorcrafter,
-  title={AnchorCrafter: Animate CyberAnchors Saling Your Products via Human-Object Interacting Video Generation},
-  author={Xu, Ziyi and Huang, Ziyao and Cao, Juan and Zhang, Yong and Cun, Xiaodong and Shuai, Qing and Wang, Yuchen and Bao, Linchao and Li, Jintao and Tang, Fan},
-  journal={arXiv preprint arXiv:2411.17383},
-  year={2024}
+@article{xu2026anchorcrafter,
+  title={Anchorcrafter: Animate cyber-anchors selling your products via human-object interacting video generation},
+  author={Xu, Ziyi and Huang, Ziyao and Cao, Juan and Zhang, Yong and Cun, Xiaodong and Shuai, Qing and Wang, Yuchen and Bao, Linchao and Tang, Fan},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2026},
+  publisher={IEEE}
 }
 ```
 
